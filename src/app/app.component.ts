@@ -26,8 +26,8 @@ export class AppComponent {
   // degisken5: number[] = [1, 2, 3, 4, 5];
   // degisken6: MainModel = { name: "Melisa", surname: "Alatas", "country": "tt", age: 18 };
   // degisken7: MainModel[] = [
-  //   { name: "Melisa", surname: "Alatas", "country": "tt", age: 18 },
-  //   { name: "Melisa2", surname: "Alatas2", "country": "tt2", age: 128 },
+  //   { name: "Melisa", surname: "dikmen", "country": "tt", age: 18 },
+  //   { name: "Melisa2", surname: "dikmen2", "country": "tt2", age: 128 },
   // ]
   //Interface ile değişken tanımlarken mutlaka obje('{}') şeklinde yazmamız gerekir. Çünkü interfaceler
   //birer objedir. MainModel[] şeklinde yazıldığında da önce '[]' açılır sonra obje tanımlaması yapılır!
