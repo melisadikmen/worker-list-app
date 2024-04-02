@@ -32,7 +32,7 @@ export class AppComponent {
   //Interface ile değişken tanımlarken mutlaka obje('{}') şeklinde yazmamız gerekir. Çünkü interfaceler
   //birer objedir. MainModel[] şeklinde yazıldığında da önce '[]' açılır sonra obje tanımlaması yapılır!
 
-  title = 'talha-odev';
+  title = 'worker-odev';
   faUserPlus = faUserPlus;
   displayedColumns: string[] = ['name', 'surname', 'age', 'country', 'actions'];
   dataSource = userData;

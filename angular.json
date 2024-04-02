@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "talha-odev": {
+    "worker-odev": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/talha-odev",
+            "outputPath": "dist/worker-odev",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -63,10 +63,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "talha-odev:build:production"
+              "buildTarget": "worker-odev:build:production"
             },
             "development": {
-              "buildTarget": "talha-odev:build:development"
+              "buildTarget": "worker-odev:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -74,7 +74,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "talha-odev:build"
+            "buildTarget": "worker-odev:build"
           }
         },
         "test": {
