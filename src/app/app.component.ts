@@ -49,7 +49,6 @@ export class AppComponent {
     this.dialog.open(AddPersonDialogComponent, {}).afterClosed().subscribe(value => {
       //Afteclosed dialog kapandıktan sonra yapılan işlemlerdir. Subs olunur. İstediğin değişken ismi verilir.
       //Dialog kapandıktan sonra oradan gönderdiğimiz değişkeni burada 'value' ile yakaladık ve arrayimize pushladık
-      //Ayrıca seni çok seviyorum...
       this.dataSource.push(value);
       this.dataSource = [...this.dataSource] // Hafızadaki değerini güncellemek için bu şekilde yaptık
       this._cdr.markForCheck(); //Angularda bazen değişiklikler ekrana yansımıyor. Onun için bu kütüph kullanılmalı
