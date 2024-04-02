@@ -1,0 +1,25 @@
+<h2 mat-dialog-title>Yeni Personel Ekle</h2>
+<mat-dialog-content>
+  <div class="container-info">
+    <mat-form-field>
+      <mat-label>name</mat-label>
+      <input matInput [(ngModel)]="person.name">
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>surname</mat-label>
+      <input matInput [(ngModel)]="person.surname">
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>age</mat-label>
+      <input matInput [(ngModel)]="person.age">
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>country</mat-label>
+      <input matInput [(ngModel)]="person.country">
+    </mat-form-field>
+  </div>
+</mat-dialog-content>
+<mat-dialog-actions>
+  <button mat-button (click)="onNoClick()">No Thanks</button>
+  <button mat-button [mat-dialog-close]="person" cdkFocusInitial>Kaydet</button>
+</mat-dialog-actions>
